@@ -13,3 +13,7 @@ Team Details
 3) Madhu Sudhanan Kalaivanan
 4) Chaitanya Chavali
 
+
+PPT Link:
+
+http://speedy.sh/2hwDY/Android-Overview.ppt
