@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fin Jobs</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<link href="content/jquery.mobile-1.1.0.min.css" rel="stylesheet" type="text/css" />
+		<link href="content/jquery.jqplot.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="content/custom.css" type="text/css" />
+		<script src="scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+		<script src="scripts/jquery.mobile-1.1.0.min.js" type="text/javascript"></script>
+		<script src="scripts/custom.js" type="text/javascript"></script>
+	</head>
+	<body onload="getTime();">
+		<div data-role="page" class="pagestyle" id="pagePieChart">
+			<header data-role="header" data-position= "fixed">
+				<div data-role="navbar">
+					<ul>
+						<li>
+							<a href="#" class="ui-btn-active">Make Complaint</a>
+						</li>
+						<li>
+							<a href="#" onclick="pageNavDetail()">Check Status</a>
+						</li>
+						<li>
+							<a href="#" onclick="navReport()">Make Donate</a>
+						</li>
+					</ul>
+				</div><!-- /navbar -->
+			</header>
+			<section data-role="content">
+				<p id="time" align="left" class="alignleft"></p>
+				<p align="right" class="alignright" >
+					Welcome User | <a href="index.html"><font color="#FFFFFF"> Logout </font></a>
+				</p>
+				<br>
+				<br>
+				<br>
+				<center><label for="select-choice-1" id="LabelChoice"  class="textstyle"><font size="7">TN Cares</font> </label></center>
+				<br>
+				<center><label for="select-choice-1" id="LabelChoice"  class="textstyle">We care for you</label></center>
+				<br>
+				<br>
+				<label for="select-choice-1" id="LabelChoice"  class="textstyle">Please post your complaint here by choosing respective department</label>
+				<a href="#" onclick="navtoNext()" data-role="button">Electricity</a>
+
+				<a href="#" onclick="navtoNext()" data-role="button">Water</a>
+
+				<a href="#" onclick="navtoNext()" data-role="button">Sanitation</a>
+				
+				<a href="#" onclick="navtoNext()" data-role="button">Health</a>
+				
+				<a href="#" onclick="navtoNext()" data-role="button">Fire</a>
+			</section>
+			</div>			
+			<div data-role="footer" class="ui-bar" data-position="fixed">
+				<a href="#" data-role="button">Refresh Data</a>
+			</div>
+		
+		<script src="scripts/jquery.jqplot.min.js" type="text/javascript"></script>
+		<script src="scripts/jqplot.pieRenderer.min.js" type="text/javascript"></script>
+		<script src="scripts/jqplot.barRenderer.min.js" type="text/javascript"></script>
+		<script src="scripts/jqplot.categoryAxisRenderer.min.js" type="text/javascript"></script>
+		<script src="scripts/underscore-min.js" type="text/javascript"></script>
+		<script src="scripts/hideAddressBar.js" type="text/javascript"></script>
+		<script src="scripts/app.js" type="text/javascript"></script>
+	</body>
+</html>
