@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fin Jobs</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<link href="content/jquery.mobile-1.1.0.min.css" rel="stylesheet" type="text/css" />
+		<link href="content/jquery.jqplot.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="content/custom.css" type="text/css" />
+		<script src="scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+		<script src="scripts/jquery.mobile-1.1.0.min.js" type="text/javascript"></script>
+		<script src="scripts/custom.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div data-role="page" id="login"  class="pagestyle">
+			<div data-role="header" data-theme="b">
+				<h1>TN Cares</h1>
+			</div>
+			<br>
+			<center>
+				<img src = "content/images/wer.png" alt = "Picture" width="50%"/>
+				<br>
+			</center>
+			<div data-role="content" data-inset="true">
+				<h3 style="font:Verdana;color:#FFFFFF;size: 1.2em;">Login</h3>
+				<form action="javascript:allowUser();" method="get">
+					<label for="username" class="textstyle">User Name</label>
+					<input type="text" name="username" id="username" value=""  />
+					<label for="password" class="textstyle">Password</label>
+					<input type="password" name="password" id="password" value="" />
+					<input type="Submit" value="Login" data-role="Submit" data-inline="true" data-theme="b" />
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
